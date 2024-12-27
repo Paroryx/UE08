@@ -1,0 +1,65 @@
+Testprotokoll A1:
+
+Command ([c] create task, [e] execute task, [s] print summary, [q] exit]: c
+Creating new task:
+Type ([1] default, [2] assigned, [3] repeated): 1
+Title: Find the Remote
+With description? (y/n) y
+Description: Search the entire house for the missing remote control.
+
+Command ([c] create task, [e] execute task, [s] print summary, [q] exit]: c
+Creating new task:
+Type ([1] default, [2] assigned, [3] repeated): 2
+Title: Bake a Giant Cookie
+With description? (y/n) y
+Description:  Create the biggest cookie you can.
+# of Assignees: 2
+Assignee 1: Chef Choco
+Assignee 2: Dough Master
+
+Command ([c] create task, [e] execute task, [s] print summary, [q] exit]: c
+Creating new task:
+Type ([1] default, [2] assigned, [3] repeated): 3
+Title: Dance-off Challenge
+Description: Have a dance battle in the kitchen.
+# of Assignees: 3
+Assignee 1: DJ Spinny
+Assignee 2: Groove Master
+Assignee 3: Twinkle Toes
+# of repetitions: 5
+
+Command ([c] create task, [e] execute task, [s] print summary, [q] exit]: c
+Creating new task:
+Type ([1] default, [2] assigned, [3] repeated): 1
+Title: Boring Task
+With description? (y/n) n
+
+Command ([c] create task, [e] execute task, [s] print summary, [q] exit]: s
+4 tasks registered:
+[1] Find the Remote (Search the entire house for the missing remote control.)
+[2] Bake a Giant Cookie ( Create the biggest cookie you can.) [Chef Choco, Dough Master]
+[3] Dance-off Challenge (Have a dance battle in the kitchen.) [DJ Spinny, Groove Master, Twinkle Toes] x5
+[4] Boring Task (No detailed description)
+
+Command ([c] create task, [e] execute task, [s] print summary, [q] exit]: e
+Task to execute: 4
+Executing task: Boring Task (No detailed description)
+
+Command ([c] create task, [e] execute task, [s] print summary, [q] exit]: e
+Task to execute: 3
+Executing task: Dance-off Challenge (Have a dance battle in the kitchen.) [DJ Spinny, Groove Master, Twinkle Toes] x5
+Executing task: Dance-off Challenge (Have a dance battle in the kitchen.) [DJ Spinny, Groove Master, Twinkle Toes] x5
+Executing task: Dance-off Challenge (Have a dance battle in the kitchen.) [DJ Spinny, Groove Master, Twinkle Toes] x5
+Executing task: Dance-off Challenge (Have a dance battle in the kitchen.) [DJ Spinny, Groove Master, Twinkle Toes] x5
+Executing task: Dance-off Challenge (Have a dance battle in the kitchen.) [DJ Spinny, Groove Master, Twinkle Toes] x5
+
+Command ([c] create task, [e] execute task, [s] print summary, [q] exit]: q
+
+Task manager shutdown
+
+Testprotokoll A2:
+
+try to follow company again: false
+monthly cost of @Apple 12.5 Euro    
+monthly cost of @Greenpeace 3.0 Euro
+monthly cost of @traditional_slogan_by_Amazon 18.0 Euro
